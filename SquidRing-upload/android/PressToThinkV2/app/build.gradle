@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.presstothink.v2'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.presstothink.v2'
+        minSdk 26
+        targetSdk 35
+        versionCode 20000
+        versionName '2.0.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
